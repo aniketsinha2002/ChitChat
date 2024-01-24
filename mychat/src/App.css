@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.JoinPage{
+    background-color: rgba(1, 1, 1, 0.186);
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.JoinContainer{
+    border: 2px solid white;
+    height: 50%;
+    width: 50%;
+}
+
+.chatPage{
+     background-color: rgba(1, 1, 1, 0.186);
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    border: 2px solid white;
+    height: 60%;
+    width: 50%;
+}
+.chatBox{
+    border: 2px solid white;
+    height: 85%;
+}
+.inputBox{
+    border: 2px solid white;
+    height: 15%;
+    background-color: blueviolet;
+}
+
+.messageBox{
+    clear: both;
+}
+
+.left{
+    float:left;
+    background-color: rgba(245, 139, 27, 0.842);
+    margin: 5px;
+    padding:40px;
+}
+
+.right{
+    float:right;
+    background-color: rgba(19, 227, 29, 0.586);
+    margin: 5px;
+    padding:40px;
+    
+}
