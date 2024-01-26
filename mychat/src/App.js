@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Join />} />
-          <Route path="/chat" element={<Chat />} />
           <Route path="/register" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/chat" element={<Chat />} />         
           <Route path="/room/:roomId" element={<Room/>}/>
         </Routes>
       </Router>
