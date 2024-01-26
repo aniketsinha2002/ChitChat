@@ -1,4 +1,4 @@
-DEMO LINK - https://www.awesomescreenshot.com/video/24325946?key=04846aee710ea3d4978f924de7098b80
+DEMO LINK - https://www.loom.com/share/e3e2643d009841e4898bc3e2471584c6?sid=a6547fef-c42f-4072-9c5b-fa5e9797135a
 
 SERVER ISN'T HOSTED YET. IT WORKS ON LOCAL HOST
 
