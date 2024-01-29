@@ -27,23 +27,23 @@ app.get("/",(req,res)=>{
     res.send("HELL ITS WORKING");
 })
 
-// app.post("/login", (req, res) => {
-//     const { email, password } = req.body;
-//     ourUsersModel.findOne({ email: email })
-//         .then(user => {
-//             if (user) {
-//                 if (user.password === password) {
-//                 res.json("Successful")
-//                 }
-//                 else {
-//                     res.json("password is incorrect")
-//                 }
-//             }
-//             else {
-//                 res.json("user dont exist please register")
-//             }
-//     })
-// })
+app.post("/login", (req, res) => {
+    const { email, password } = req.body;
+    ourUsersModel.findOne({ email: email })
+        .then(user => {
+            if (user) {
+                if (user.password === password) {
+                res.json("success")
+                }
+                else {
+                    res.json("password is incorrect")
+                }
+            }
+            else {
+                res.json("user dont exist please register")
+            }
+    })
+})
 
 app.post("/register", (req, res) => {
     console.log(req.body);
